@@ -1,0 +1,7 @@
+.idea
+__pycache__
+.env*
+*.sqlite3
+*.dot
+*migrations*
+package-lock.json

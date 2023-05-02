@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .resuls-grid-layout {
+        @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3;
+
+    }
+
+    .results-grid-cells {
+        @apply rounded-xl bg-gray-200 truncate p-2 px-3;
+    }
+
+    .resuls-grid-header {
+        @apply col-span-1 md:col-span-2 xl:col-span-3 2xl:col-span-4 pb-1;
+    }
+
+    .footer-padding {
+        @apply pb-[66px];
+    }
+
+    .header-padding {
+        @apply pt-[56px];
+    }
+}
